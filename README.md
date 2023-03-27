@@ -26,14 +26,14 @@
 如果有儲存的話，那下次就可以直接登入FaceBook[^2]，<br>
 這就是利用到Cookie的實作[^3].
 
-每個網域名稱下的cookie上限是50個.
-而每個cookie的大小限制為4k, 只能存放字串型態的資料.
+每個網域名稱下的cookie上限是50個. <br>
+而每個cookie的大小限制為4k, 只能存放字串型態的資料. <br>
 
 實作範例:
-- Example1 - 基本cookie的使用方式.
-- Example2 - 使用cookieParse來簡化取得cookie的資料.
-- Example3 - 如何使用cookie的簽名進行讀寫.
-- Example4 - 簡易版登入實作.
+- [Example1](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example1.ts) - 基本cookie的使用方式.
+- [Example2](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example2.ts) - 使用cookieParse來簡化取得cookie的資料.
+- [Example3](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example3.ts) - 如何使用cookie的簽名進行讀寫.
+- [Example4](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example4.ts) - 簡易版登入實作.
 
 ---
 <br>
