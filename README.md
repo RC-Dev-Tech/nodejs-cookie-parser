@@ -1,11 +1,12 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - Express + Cookie-Parser
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
-<br>
+---
 
 <!--ts-->
-## 目錄
+## 目錄:
 * [簡介](#簡介)
+* [實作範例](#實作範例)
 * [使用套件](#使用套件)
 * [操作說明](#操作說明)
 * [屬性說明](#屬性說明)
@@ -16,9 +17,8 @@
 <!--te-->
 
 ---
-<br>
 
-## 簡介
+## 簡介:
 什麼是Cookie? <br>
 用白話一點的說法就是網頁瀏覽器(Browser)的一個暫存空間， <br>
 舉個最簡單又常用的例子就是當你使用Google Chrome去登入FaceBook的帳密時，<br>
@@ -29,32 +29,29 @@
 每個網域名稱下的cookie上限是50個. <br>
 而每個cookie的大小限制為4k, 只能存放字串型態的資料. <br>
 
-實作範例:
+## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example1.ts) - 基本cookie的使用方式.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example2.ts) - 使用cookieParse來簡化取得cookie的資料.
 - [Example3](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example3.ts) - 如何使用cookie的簽名進行讀寫.
 - [Example4](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example4.ts) - 簡易版登入實作.
 
 ---
-<br>
 
-## 使用套件.
+## 使用套件:
 - express
 - cookie-parser
 
 ---
-<br>
 
-## 操作說明.
+## 操作說明:
 #### 1. 安裝套件 [^1]
 > npm install --save
 #### 2. 編譯 & 運行
 > npm run start
 
 ---
-<br>
 
-## 屬性說明
+## 屬性說明:
 **res.cookie()參數:**
 - name：key name (string).
 - value：value content (string or object).
@@ -68,21 +65,18 @@
   - signed：是否使用簽名，需配合cookie-parser使用.
 
 ---
-<br>
 
-## 切換範例
+## 切換範例:
 > 編輯在app.json中的"exsample_mode"，填入的數字代表第幾個範例.
 
 ---
-<br>
 
-## 延伸項目
+## 延伸項目:
 * [NodeJs 系列實作](https://github.com/RC-Dev-Tech/nodejs-index) <br>
 
 ---
-<br>
 
-## 參考資料
+## 參考資料:
 * [HTTP Cookie](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies) <br>
 * [github - cookie-parser](https://github.com/expressjs/cookie-parser) <br>
 * [express cookie-parser 小书](https://segmentfault.com/a/1190000017161778?utm_source=sf-similar-article) <br>
@@ -92,11 +86,14 @@
 * [Node.js+Express 开发之Cookie、Session 使用详解](https://blog.csdn.net/qq_36157085/article/details/104731057) <br>
 
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
+
 ---
-## 備註：
+
+## 備註:
 
 [^1]: 在這個範例中我們需要安裝部分套件，指令如下：<br>
 `npm install express --save` <br>
