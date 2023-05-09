@@ -29,6 +29,8 @@
 每個網域名稱下的cookie上限是50個. <br>
 而每個cookie的大小限制為4k, 只能存放字串型態的資料. <br>
 
+---
+
 ## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example1.ts) - 基本cookie的使用方式.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example2.ts) - 使用cookieParse來簡化取得cookie的資料.
